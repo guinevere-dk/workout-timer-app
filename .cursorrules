@@ -1,0 +1,40 @@
+# Project Rules — Phase 1 MVP (DO NOT IGNORE)
+
+## Product Philosophy
+- Quiet, steady, non-competitive fitness app
+- The character is a rhythm partner, not a coach or judge
+- No pressure, no comparison, no gamified aggression
+
+## Core Rules (MUST FOLLOW)
+- Time-based workouts ONLY (no reps, no counting)
+- White & Black UI, minimal buttons and icons
+- No loud colors, no gradients, no celebrations
+- No warnings, no popups, no motivational slogans
+
+## Playlist Rules
+- There are exactly 3 sample playlists
+- Sample playlists are read-only
+- Custom playlists must be created by copying a sample
+- Max 12 steps per playlist
+- Max total duration: 30 minutes
+- Min total duration: 3 minutes
+- Only 1 running exercise per playlist
+
+## Editing Rules
+- Users can add, delete, reorder steps
+- Duration can be adjusted by +/- 10 seconds only
+- No direct number input
+- No save confirmation dialogs (auto-save only)
+- Deletion must support Undo (temporary)
+
+## UX Restrictions
+- Do NOT show XP numbers
+- Do NOT show levels as numbers or ranks
+- No comparisons, no streak pressure
+- Recommendations: only ONE gentle suggestion
+
+## Implementation Notes
+- React Native + Expo
+- TypeScript
+- Local-first (no backend in Phase 1)
+- Prefer simple, readable code over abstractions
